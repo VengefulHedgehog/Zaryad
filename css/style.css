@@ -1,0 +1,234 @@
+body{
+    font-family: 'Raleway';
+    font-style: normal;
+}
+/*------------------------------------header------------------------------------*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+.container {
+    padding: 0 10%;
+}
+.header__logo {
+    padding: 25px 0;
+    margin: 0 40px 0 0;
+}
+.header__language {
+    display: flex;
+    flex-direction: row;
+    padding: 29px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #7D7D7D;
+    margin: 0 70px 0 0;
+}
+.language__ru {
+    margin: 0 4px 0 0;
+    cursor: pointer;
+}
+.active {
+    color: #D8D8D8;
+}
+.language__en {
+    margin: 0 0 0 4px;
+    cursor: pointer;
+}
+a{
+    color: none;
+}
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 70px 0 0;
+}
+.menu__button a{
+    color: #7D7D7D;
+}
+.menu__button{
+    margin: 0 24px 0 0;
+}
+.menu__button:last-child{
+    margin: 0;
+}
+.language__ru:hover, .language__en:hover, .menu__button a:hover{
+    color: #D8D8D8;
+}
+.header__icons {
+    padding: 30px 0;
+}
+.header__icons a{
+    margin: 0 19px 0 0;
+}
+.header__basket {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto 0;
+    padding: 11px;
+    border: 1px solid #FFF;
+}
+
+/*------------------------------------footer------------------------------------*/
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer__info {
+    display:flex;
+    flex-direction: column;
+    padding: 106px 100px 0 0;
+}
+.footer__logo {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 55px 0;
+}
+.footer__logo__img{
+    height: 27px;
+    width: 261px;
+    margin: 0 50px 0 0;
+}
+.footer__media {
+    display: flex;
+    flex-direction: row;
+}
+.media__telegramm {
+    width: 40px;
+    height: 40px;
+    margin: 0 16px 0 0;
+}
+.media__vk {
+    width: 40px;
+    height: 40px;
+}
+.footer__text {
+    display:grid;
+    grid-template-columns:186px 186px ;
+    grid-template-rows: 64px 80px 64px 64px;
+    grid-template-areas:"name name"
+                        "address address"
+                        "phone email"
+                        "INN OGRN";
+}
+.text__title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #BCBCBC;
+}
+.text__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333333;
+}
+.text__name {
+    grid-area: name;
+}
+.text__address {
+    grid-area: address;
+}
+.text__phone {
+    grid-area: phone;
+}
+.text__email {
+    grid-area: email;
+}
+.text__INN {
+    grid-area: INN;
+}
+.text__OGRN {
+    grid-area: OGRN;
+}
+.footer__sup{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding:68px 0 100px 0;
+}
+.footer__sup, .footer__sup a{
+    color: #7D7D7D;
+}
+.footer__about {
+    position: relative;
+    display: grid;
+    grid-template-columns: 280px 1fr ;
+    grid-template-rows: 238px 144px;
+    grid-template-areas:"brend partners"
+                        "buyers buyers";
+    padding: 189px 0 0 0;
+}
+.about__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    margin: 0 0 24px 0;
+}
+.about__list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333333;
+}
+.about__list li{
+    margin: 0 0 16px 0;
+}
+.about__list li:last-child{
+    margin: 0;
+}
+.about__brend {
+    grid-area: brend;
+}
+
+.about__partners {
+    grid-area: partners;
+}
+.about__buyers {
+    grid-area: buyers;
+}
+.about__buyers__list{
+    display: grid;
+    grid-template-columns: 280px 280px 1fr ;
+    grid-template-rows: 100px;
+    grid-template-areas:"left right dev";
+}
+.left__list{
+    grid-area: left;
+}
+.right__list{
+    grid-area: right;
+}
+.footer__connection {
+    position: absolute;
+    top: 85px;
+    right: 0;
+    padding: 55px 35px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #F64F00;
+}
+.footer__connection p{
+    font-weight: 600;
+    font-size: 16px;
+    width: 79px;
+    line-height: 20px;
+    color: #F64F00;
+}
+.footer__developed {
+    display: flex;
+    align-items: flex-end;
+    grid-area: dev;
+}
