@@ -424,18 +424,32 @@ a{
     margin: 0 0 40px 0;
     -webkit-text-stroke: 1px #BCBCBC;
 }
+.discount__title p:nth-child(2){
+    position:relative;
+    text-indent: 76px; 
+}
+.discount__title:first-child{
+    position: relative;
+}
 .discount__subtitle {
     margin: 0 0 32px 0;
 }
 .img__lightning{
-    padding: 20px;
+    position: absolute;
+    top: -30px;
+    left:280px;
+
+    padding: 60px;
     background:url(../img/icons/background_blue.png) no-repeat center ;
-    background-size: 160px;
+    background-size: 80%;
 }
 .img__percent {
-    padding: 20px;
+    position: absolute;
+    top: -30px;
+    left: -60px;
+    padding: 60px;
     background:url(../img/icons/background_orange.png) no-repeat center ;
-    background-size: 160px;
+    background-size: 80%;
 }
 .discount__price{
     color:#FFF;
