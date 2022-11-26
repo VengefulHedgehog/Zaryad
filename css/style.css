@@ -278,6 +278,128 @@ a{
     transform: translateX(100%); }
     }
 
+/*------------------------------------about------------------------------------*/
+
+.about {
+    background-color: #000;
+    padding-top: 100px;
+}
+.about__test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.test__text {
+    color: #F5F5F5;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 0 55px 0;
+}
+.test__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    margin: 0 0 24px 0;
+}
+.test__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+.test__content {
+    position:relative;
+    width: 100%;
+    background: url(../img/ZARYAD_background.png) center 35% no-repeat,url(../img/icons/background_orange.png) 10% 10% no-repeat, url(../img/icons/background_blue.png) 90% 100% no-repeat;
+    background-size: 80% auto,568px 568px, 524px 524px;
+    padding: 0 0 650px 0;
+}
+.test__img {
+    position: absolute;
+    top:0%;
+    left: 10%;
+    width: 100%;
+    max-width: 1048px;
+}
+.test__button {
+    position:absolute;
+    top: 55%;
+    right: 20%;
+    border-radius: 50%;
+    background-color: #FFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    width: 150px;
+    height: 150px;
+}
+
+.about__brand {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFF;
+    margin: 0 0 0 10%;
+    padding: 100px 10% 100px 160px;
+    border-radius: 50px 0 0 50px;
+}
+.brand__text {
+    width: 100%;
+    max-width: 491px;
+    color: #333333;
+    margin: 0 134px 0 0;
+}
+.brand__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    margin: 0 0 24px 0;
+}
+.brand__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 40px 0;
+}
+.brand__button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F64F00;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #F64F00;
+}
+.brand__content {
+    display:flex;
+    flex-direction: column;
+    padding: 79px 0 0 0;
+}
+.brand__content__item {
+    width: 100%;
+    max-width: 594px;
+}
+.content__item__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    margin: 0 0 16px 0;
+}
+.content__item__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #7D7D7D;
+    margin: 0 0 40px 0;
+}
+.content__item__img {
+    width: 100%;
+    max-width: 594px;
+}
+
 /*------------------------------------discount------------------------------------*/
 
 .discount {
